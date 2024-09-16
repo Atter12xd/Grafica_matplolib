@@ -33,3 +33,19 @@ for i in range(len(intersecciones_x)):
                  ha='center',
                  fontsize=10,
                  color='green')
+    
+#paso 5
+# Personalización
+plt.title('Gráfica de Funciones Cuadrática y Lineal', fontsize=16)  # Título
+plt.xlabel('Valores de x', fontsize=14)  # Etiqueta del eje x
+plt.ylabel('Valores de y', fontsize=14)  # Etiqueta del eje y
+
+# Líneas de cuadrícula
+plt.grid(color='gray', linestyle='--', linewidth=0.5)
+
+# Líneas de los ejes
+plt.axhline(0, color='black', linewidth=0.8)  # Línea horizontal en y=0
+plt.axvline(0, color='black', linewidth=0.8)  # Línea vertical en x=0
+
+# Mostrar leyenda
+plt.legend(fontsize=12)
