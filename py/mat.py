@@ -49,3 +49,8 @@ plt.axvline(0, color='black', linewidth=0.8)  # Línea vertical en x=0
 
 # Mostrar leyenda
 plt.legend(fontsize=12)
+
+
+#paso 6:
+# Mostrar la gráfica
+plt.show()
